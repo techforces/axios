@@ -12,6 +12,11 @@ export default defineConfig({
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/react-store-products/, ""),
       },
+      "/axios-tutorial-post": {
+        target: "https://course-api.com/axios-tutorial-post",
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/axios-tutorial-post/, ""),
+      },
     },
   },
 });

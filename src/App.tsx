@@ -1,5 +1,6 @@
 // import { FirstRequst } from "./components/FirstRequest";
-import { SecondRequest } from "./components/SecondRequest";
+// import { SecondRequest } from "./components/SecondRequest";
+import { ThirdRequest } from "./components/ThirdRequest";
 import { Title } from "./components/Title";
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
     <>
       <Title />
       {/* <FirstRequst /> */}
-      <SecondRequest />
+      {/* <SecondRequest /> */}
+      <ThirdRequest />
     </>
   );
 }
